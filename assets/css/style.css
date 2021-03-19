@@ -99,40 +99,254 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1903px;
+  width: 91.48%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+header > div {
+  display: flex;
+  /* justify-content: space-between; */
+}
 
+header {
+  position: relative;
+  z-index: 5;
+}
 
+header > div > h1 {
+  padding: 34px 0;
+}
 
+.section1 {
+  transform: translateY(-112px);
+ }
+   
+.brand-name > a {
+text-indent: -9999px;
+}
+.brand-name > a > img {
+  float: right;
+}
 
+nav {
+padding: 34px 0 0 3.33%;
+margin-right: 39.51%;
+/* width: 51.06%; */
+/* margin:0 0 0 73px; */
+flex-basis: 39.51%;
+}
 
+.navbar > li > a {
+  color: white;
+  font-size: 25px;
+
+}
+.navbar {
+  /* width: 39.40%; */
+}
+.navbar li{
+  padding-right: 2.64%;
+}
+.navbar li:last-child{
+  padding-right: 0;
+}
+
+.navbar-login {
+  padding-top: 34px;
+  flex-basis: 11.41%;
+}
+.navbar-login li{
+  font-size:25px;
+}
+
+.sign-in-btn {
+  padding: 16px 36px 18px 36px;
+  border-radius: 53px;
+  background-color: white;
+  color: #437fc5;
+}
 
 /*=================================
-  Header styling ends here
+Header styling ends here
 =================================*/  
 
 /*=================================
-  main styling starts here
+main styling starts here
 =================================*/
+.section1 {
+  background-image: url('https://via.placeholder.com/1903x1034/FF0000/000000');
+}
+.section1-title {
+  position: relative;
+  /* top: -882px; */
+  top: -743px;
+  font-size: 61px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.get-started-btn{
+  padding:23px 3.73% 25px 3.73%;
+  margin: 0 auto;
+  border-radius: 53px;
+  position: absolute;
+  left: 50%;
+  background-color: white;
+  color:#437fc5;
+  font-size: 31px;
+  /* display: block; */
+  /* width: 200px; */
+    /* position: relative; */
+  /* transform: translateY(-674px); */
+  /* transform: translateY(-674px); */
+  transform: translate(-50%, -674px);
+}
+
+.section2-title {
+  font-size: 106px;
+  font-weight: bold;
+}
+
+.section2-para {
+  font-size: 31px;
+  line-height: 48px;
+  transform: translateY(-5px);
+}
 
 
+.section2 > div {
+  /* padding-top: 143px;
+  padding-bottom: 131px; */
+  padding:143px 0 131px 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  .section2-title {
+  padding-left: 1.6%;
+  flex-basis: 38.88%;
+  transform: translateY(-14px);
+  }
+  
+  .section3-title {
+    font-size: 62px;
+    font-weight: bold;
+  }
+  .section3-titleinfo{
+    font-weight: normal;
+  }
+
+  .section3-para {
+    margin-top: 41px;
+    font-size: 25px;
+    line-height: 43px;
+  }
+
+  
+.section3,
+.section4
+{
+  margin-left: 9px;
+  border: 5px solid black;
+  }
+  
+  .section3 > div {
+  display: flex;
+      justify-content: space-between;
+  }
+  
+  .section3-left {
+    padding-left: 5.16%;
+    margin-top: 159px;
+  flex-basis: 36.81%;
+  }
+  
+  .section3-img {
+  transform: translateX(80px);
+  }
+
+  .section2-right {
+  flex-basis: 41.92%;
+  }
+
+  .section2-right > a {
+    margin-top: 52px;
+  }
+
+  .section3-left > a ,
+  .section4-right > a 
+  {
+    margin-top: 63px;
+  } 
 
 
+  .section4-left-para ,
+  .section4-right-para
+  {
+    margin-top: 41px;
+    font-size: 25px;
+    line-height: 43px;
+  }
+  .section4  > div {
+    display :flex;
+    }
+    
+    .section4-right-title {
+    font-size: 62px;
+        font-weight: bold;
+    }
+
+  .section4-left {
+    /* padding-left: 5.16%; */
+  }
+
+  .section4-left-title {
+    font-size: 62px;
+    font-weight: bold;
+  }
+  .section6-para {
+  font-size: 31px;
+}
 
 
+.section7-para2 {
+  font-size: 31px;
+}
+/* .section7-para2 {
+  font-size: 31px;
+} */
 
+
+.section5-title {
+  font-size: 106px;
+  font-weight: bold;
+}
+
+.get-started-link {
+  position: relative;
+  color: black;
+  font-size: 29px;
+}
+.get-started-link ::after {
+  content: " ";
+  width: 100px;
+  height: 0;
+  border-top: 2px solid gray;
+  position: absolute;
+  bottom:-8px;
+  left: 0;
+
+}
 
 /*=================================
-  main styling ends here
+main styling ends here
 =================================*/
 
 /*=================================
-  footer styling starts here
+footer styling starts here
 =================================*/ 
 
 
