@@ -358,22 +358,24 @@ main styling starts here
 }
 
 .section4 {
-  padding-bottom: 109px;
+  /* padding-bottom: 109px; */
 }
 
 .section3 > div {
+  width:100%;
   display: flex;
   justify-content: space-between;
 }
 
 .section3-left {
-  padding-left: 5.16%;
+  /* padding-left: 5.16%; */
+  padding-left: 9%;
   margin-top: 159px;
   flex-basis: 36.81%;
 }
 
 .section3-img {
-  transform: translateX(80px);
+  /* transform: translateX(80px); */
 }
 
 .section2-right {
@@ -389,6 +391,12 @@ main styling starts here
   margin-top: 63px;
 }
 
+.section4-right > div {
+
+  width: 66%;
+  padding-left: 16%;
+  }
+  
 .section4-left-para ,
 .section4-right-para {
   margin-top: 41px;
@@ -396,7 +404,9 @@ main styling starts here
   line-height: 43px;
 }
 
-.section4>div {
+.section4 > div {
+  width:100%;
+  padding-bottom: 109px;
   display: flex;
 }
 
@@ -408,7 +418,10 @@ main styling starts here
 }
 
 .section4-left > div {
-  padding-left: 5.16%;
+  width: 66%;
+  padding-left: 18%;
+  /* padding-left: 5.16%; */
+
 }
 
 .section4-left > div > a {
@@ -460,12 +473,18 @@ main styling starts here
 
 
 .section4-left-img {
-  transform: translateX(-79px);
+  /* transform: translateX(-79px); */
 }
 
 .section4-right-img {
-  transform: translateX(79px);
+  /* transform: translateX(79px); */
 }
+
+.section4-left-img > img ,
+.section4-right-img > img {
+width: auto;
+}
+
 
 .sec5-div1-title ,
 .sec5-div2-title ,
@@ -501,7 +520,8 @@ main styling starts here
 .section5-title {
 
   width: 53.57%;
-  margin: 307px auto 165px auto;
+  /* margin: 307px auto 165px auto; */
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -512,7 +532,16 @@ main styling starts here
   justify-content: space-between;
 }
 
+.sec5-flex1 {
+  margin-top: 165px;
+}
+
+.sec5-flex2 {
+  margin-top: 126px;
+}
+
 .sec5-flex3 {
+  margin-top: 282px;
   margin-bottom: 186px;
 }
 
@@ -521,12 +550,12 @@ main styling starts here
 }
 
 .section5-div3 {
-  margin-top: 126px;
+  /* margin-top: 126px; */
   margin-left: 13.32%;
 }
 
 .section5-div5 {
-  margin-top: 282px;
+  /* margin-top: 282px; */
   margin-left: 3.61%;
 }
 
@@ -537,11 +566,12 @@ main styling starts here
 
 .section5-div4 {
   margin-right: 8.67%;
-  transform: translateY(208px);
+  transform: translateY(82px);
 }
 
 .section5-div6 {
-  transform: translateY(252px);
+  /* transform: translateY(252px); */
+  transform: translateY(-30px);
 }
 
 .sec5-div1-title {
@@ -576,7 +606,9 @@ main styling starts here
 .section5-div6 > p {
   width: 76.1%;
 }
-
+.section5 > div {
+  margin-top: 307px;
+}
 
 .section5 > div > a {
   position: relative;
@@ -613,8 +645,9 @@ main styling starts here
 }
 
 .section6-left {
-  padding-top: 303px;
+  /* padding-top: 303px; */
   padding-left: 5.05%;
+  flex-basis: 47.38%;
 }
 
 .section6-left>a {
@@ -623,22 +656,19 @@ main styling starts here
 
 
 .section6>div {
+  padding-top: 303px;
   display: flex;
   justify-content: space-between;
 }
 
-.section6-left {
-  flex-basis: 47.38%;
-}
-
 .section6-img {
   flex-basis: 37.96%;
-  transform: translateY(317px);
+  transform: translateY(14px);
 }
 
 .section7-title {
   width: 39.01%;
-  margin-top: 66px;
+  /* margin-top: 66px; */
   font-size: 64px;
   font-weight: bold;
 }
@@ -652,7 +682,7 @@ main styling starts here
 }
 
 .section7 > div > * {
-  margin-left: 5.05%;
+  /* margin-left: 5.05%; */
 }
 
 .section7 > div > a {
@@ -661,6 +691,8 @@ main styling starts here
 
 .section7 > div {
   padding-bottom: 170px;
+  margin-top: 66px;
+  margin-left: 8.9%;
 }
 
 
@@ -783,31 +815,19 @@ footer>div {
 }
 
 
-.company-item ,
-.community-item ,
-.poducts-item ,
-.products-item ,
-.support-item {
 
+.links-sublist > li > a {
   font-size: 22px;
+  color: #a4a6a9;
+
 }
 
-.company-item:first-of-type ,
-.community-item:first-of-type ,
-.products-item:first-of-type ,
-.support-item:first-of-type {
+.links-sublist li:first-of-type {
   margin-bottom: 38px;
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.company-item > a ,
-.community-item > a ,
-.poducts-item > a ,
-.support-item > a {
-  color: #a4a6a9;
-
+  font-size: 22px;
 }
 
 .brand-info > p {
