@@ -506,12 +506,12 @@ main styling starts here
 }
 
 
-.sec5-div1-title ,
+/* .sec5-div1-title ,
 .sec5-div2-title ,
 .sec5-div3-title ,
 .sec5-div4-title ,
-.sec5-div5-title ,
-.sec5-div6-title {
+.sec5-div5-title , */
+.sec5-div-title {
   /* margin-bottom: 17px; */
   margin:0 0 17px;
   font-size: 35px;
@@ -519,22 +519,22 @@ main styling starts here
 }
 
 
-.section5-div1 > p ,
+/* .section5-div1 > p ,
 .section5-div2 > p ,
 .section5-div3 > p ,
 .section5-div4 > p ,
-.section5-div5 > p ,
-.section5-div6 > p {
+.section5-div5 > p , */
+.section5-div > p {
   font-size: 23px;
 
 }
 
-.section5-div1 ,
+/* .section5-div1 ,
 .section5-div2 ,
 .section5-div3 ,
 .section5-div4 ,
-.section5-div5 ,
-.section5-div6 {
+.section5-div5 , */
+.section5-div {
   width: 37.33%;
 }
 
@@ -546,9 +546,9 @@ main styling starts here
   text-align: center;
 }
 
-.sec5-flex1,
-.sec5-flex2,
-.sec5-flex3 {
+/* .sec5-flex1,
+.sec5-flex2, */
+.sec5-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -633,12 +633,12 @@ main styling starts here
   margin: 53px 0 0 ;
 }
 
-.section5-div1 > p,
+/* .section5-div1 > p,
 .section5-div2 > p,
 .section5-div3 > p,
 .section5-div4 > p,
-.section5-div5 > p,
-.section5-div6 > p {
+.section5-div5 > p, */
+.section5-div > p {
   width: 76.1%;
 }
 
@@ -714,8 +714,8 @@ main styling starts here
   font-weight: bold;
 }
 
-.section7-para1,
-.section7-para2 {
+/* .section7-para1, */
+.section7-para {
   width: 47.27%;
   /* margin-top: 48px; */
   margin: 48px 0 0;
