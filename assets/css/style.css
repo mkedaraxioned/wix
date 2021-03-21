@@ -974,4 +974,161 @@ footer > div {
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {}
+@media only screen and (max-width: 1023px) {
+.section2-title {
+  font-size: 80px;
+}
+
+  .section3 > div {
+    flex-wrap: wrap;
+}
+
+.section3-left {
+/*    margin: 87px 0 0;*/
+    flex-basis: 80.62%;
+}
+.section3-img {
+flex-basis:100%;
+}  
+.section3 > div {
+  flex-wrap: wrap;
+}
+
+.section3-left {
+/*    margin: 87px 0 0;*/
+  flex-basis: 80.62%;
+}
+.section3-img {
+flex-basis:100%;
+}
+
+
+.section8-title {
+  font-size: 92px;
+}
+
+.section8-left > a:nth-of-type(2) {
+margin:0;
+}
+
+.links-list {
+
+  margin: 0 ;
+  flex-basis: 100%;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brand-info {
+  flex-basis: 100%;
+}
+
+
+.section4-left {
+   border-right: 0;
+}
+
+.section4-left > div {
+    padding: 0 0 0 7%;
+}
+
+.section4 > div {
+  flex-wrap: wrap;
+}
+
+.section4-left-img > img, .section4-right-img > img {
+width:100%;
+}
+.section3-img {
+  margin: 100px 0 0;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+.section2 > div {
+    flex-wrap: wrap;
+}
+
+.section2-title {
+flex-basis: 100%;
+font-size: 60px;
+}
+
+.section3-left {
+flex-basis: 100%;
+}
+
+.section5-title {
+  width: 96%;
+  font-size: 60px;
+}
+
+.sec5-flex {
+ display: flex;
+ flex-wrap: wrap;
+ /* justify-content: space-around; */
+}
+.section5-div {
+flex-basis: 100%;
+margin: 0 0 0 8.88%;
+}
+
+.section5-div6 {
+  transform: translateY(69px);
+}
+
+.section2-right {
+ flex-basis: 100%;
+}
+.section4-left > div {
+  width: 100%;
+}
+
+.section5 > div > a {
+ font-size: 31px;
+}
+
+.section7-title {
+  width: 100%;
+}
+.section7-para {
+ width: 96%;
+}
+
+.section8 > div{
+flex-wrap: wrap;
+}
+.section8-title {
+  font-size: 72px;
+}
+
+.section5 > div > a ::after {
+
+  width: 250px;
+}
+
+.section8-left,
+.section8-right {
+flex-basis: 100%;
+}
+.links-sublist li:nth-of-type(n+2){
+  display: none;
+}
+.links-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-sublist li:nth-of-type(1)::after {
+  content: " \f078";
+  font-family: "FontAwesome";
+  font-size: inherit;
+}
+
+
+
+}
