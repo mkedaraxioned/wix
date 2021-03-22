@@ -264,24 +264,39 @@ nav {
 
 .navbar-login {
   /* padding-top: 34px; */
-  padding: 34px 0 0;
-  margin-left: 5%;
+  /* padding: 34px 0 0; */
+  padding: 16px 0 0;
+  margin-left: 10%;
   /* flex-basis: 11.41%; */
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 11%;
   justify-content: space-between;
 
 }
 
 .navbar-login li {
   font-size: 25px;
+  color: white;
+}
+.navbar-login li:nth-of-type(1),
+.navbar-login li:nth-of-type(3){
+margin-top: 18px;
 }
 
+
 .sign-in-btn {
-  padding: 16px 36px 18px 36px;
+  /* padding: 16px 36px 18px 36px; */
+  padding: 18px 15px;
   border-radius: 53px;
   background-color: white;
   color: #437fc5;
+}
+.fa-globe {
+  color: white;
+}
+
+.res-view {
+  display: none;
 }
 
 /*=================================
@@ -1010,6 +1025,26 @@ footer > div {
 
 /*media query starts*/
 /*media query for 995px starts here*/
+
+@media only screen and (max-width: 1024px) {
+
+.res-view {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+nav {
+  display: none;
+}
+header > div {
+  justify-content: space-between;
+}
+.navbar-login {
+  flex-basis: 30%;
+  justify-content: space-between;
+}
+}
+
 @media only screen and (max-width: 1023px) {
 .section2-title {
   font-size: 80px;
@@ -1095,7 +1130,7 @@ font-size: 60px;
 }
 
 .section3-left {
-flex-basis: 100%;
+  flex-basis: 100%;
 }
 
 .section5-title {
@@ -1104,7 +1139,7 @@ flex-basis: 100%;
 }
 
 .get-started-link {
-font-size: 25px;
+  font-size: 25px;
 }
 .sec5-flex {
  display: flex;
@@ -1112,8 +1147,8 @@ font-size: 25px;
  /* justify-content: space-around; */
 }
 .section5-div {
-flex-basis: 100%;
-margin: 0 0 0 8.88%;
+  margin: 0 0 0 8.88%;
+  flex-basis: 100%;
 }
 
 .section5-div6 {
@@ -1179,10 +1214,47 @@ flex-basis: 100%;
   /* margin-left: 6.6%; */
   margin: 0 0 0 3%;
 }
+.section1-title {
+  /* position: relative; */
+  /* top: -882px; */
+  /* top: -743px; */
+  margin: 0 0 20px;
+  color: white;
+  font-size: 35px;
+
+}
+.section6 > div {
+  flex-wrap: wrap;
+}
+
+.section6-left,
+.section6-img
+{
+flex-basis: 100%;
+}
+.section6-img
+{
+  margin-top: 100px;
+}
+
+.get-started-btn {
+  padding: 5px 3.73% 5px 3.73%;
+  font-size: 20px;
+}
+
+.navbar-login li:nth-of-type(1) ,
+.navbar-login li:nth-of-type(2)
+{
+visibility:hidden;}
 
 .section4-left,
 .section4-right {
   flex-basis: 100%;
 }
+
+h4[class$="title"] {
+  font-size: 53px;
+}
+
 
 }
