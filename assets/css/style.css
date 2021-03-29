@@ -967,6 +967,7 @@ footer > div {
   .section3-img {
     margin-top: 100px;
   }
+
   .section5-title {
     width: 60%;
   }
@@ -1006,6 +1007,10 @@ footer > div {
 
   .section5-div6 {
     transform: translateY(69px);
+  }
+  
+  .section5 > div > a ::after {
+    width: 250px;
   }
 
   .section2-right {
