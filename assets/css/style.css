@@ -890,6 +890,9 @@ footer > div {
     justify-content: space-between;
   }
   
+  .section1-content {
+    top:60%;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
